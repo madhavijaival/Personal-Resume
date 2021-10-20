@@ -1,0 +1,231 @@
+/* Color Palette
+# 000000
+#fbfbfa
+#EAFAF1 
+#c9252b
+*/
+
+/* Global styles 
+------------------------------------*/
+html{
+  box-sizing:border-box;
+}
+*, *:before, *:after{
+  box-sizing:inherit;
+}
+
+body {
+  
+  margin: 0; 
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px;
+  line-height: 1.8em;
+   /* background: lightblue;*/
+  
+}
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto; 
+  padding: 60px;
+  overflow:hidden;
+}
+
+h1{
+  margin: 0;
+  color: #fbfbfa;
+  font-size:36px;  
+}
+h2{
+ margin: 0;
+  font-size:30px;
+}
+h4{
+  color:#fbfbfa;
+  font-size:15px;
+}
+.column-narrow{
+   width: 30%; 
+  float:left; 
+  padding-right: 3%; 
+  min-height 175px;
+  
+}
+.column-wide {
+width: 60%; 
+float:right;
+min-height: 225px;
+ 
+}
+
+/* Image changes */
+img {
+  width: 200px;
+  height:200px;
+  
+}
+
+.profile-img{
+  
+  border-radius:50%;
+  
+}
+
+/* Header & Footer 
+------------------------------------*/
+
+header {
+
+  background: #000000;
+  background-position: fixed;
+  color: #fbfbfa;
+  padding: 10px;
+  margin-top:40px;
+}
+
+
+footer{
+ 
+background:#000000;
+  text-align:center;
+    
+}
+.contact-info a{
+  padding: 10px; 
+  display: inline-block;  
+  color: #fae1dd ;
+}
+
+/* Work Experience
+------------------------------------*/
+
+main{
+  
+  background:  #EAFAF1   ;
+}
+
+
+/* Education
+------------------------------------*/
+
+
+/*------------------Navigation bar -----------*/
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 65px;
+  background-color: #c9252b;
+  
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.fixed-nav-bar li, .fixed-nav-bar a { 
+  height: 50px;
+  line-height: 50px;
+}
+.menu {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.menu a, .menu a:visited {
+  color: #ffffff;
+}
+.menu a:hover, .menu a:target {
+  color: #ebebeb;
+}
+.menu-items {
+  display: inline-block;
+}
+.sitename {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+a.sitename, a:visited.sitename {
+  color: #e0e0e0;
+}
+.menu-items li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 70px;
+}
+.menu-items a {
+  text-decoration: none;
+}
+/********************************/
+
+/*---------------Symbol for link solcial media---------- */
+
+
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
